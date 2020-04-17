@@ -1,5 +1,6 @@
 ﻿using Laborartorio_FilmMagic.Mantenimiento;
 using Laborartorio_FilmMagic.Mantenimientos;
+using Laborartorio_FilmMagic.Procesos;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -345,6 +346,53 @@ namespace Laborartorio_FilmMagic
             else
             {
                 membresia.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+        bool ventanarenta = false;
+        Frm_renta renta = new Frm_renta();
+        private void RentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_renta);
+            if (ventanarenta == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    renta = new Frm_renta();
+                }
+
+                renta.MdiParent = this;
+                renta.Show();
+                Application.DoEvents();
+                ventanarenta = true;
+
+            }
+            else
+            {
+                renta.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanabonos = false;
+        Frm_Conceptos bono = new Frm_Conceptos();
+        private void BonosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Conceptos);
+            if (ventanabonos == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    bono = new Frm_Conceptos();
+                }
+
+                bono.MdiParent = this;
+                bono.Show();
+                Application.DoEvents();
+                ventanabonos = true;
+
+            }
+            else
+            {
+                bono.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
     }
