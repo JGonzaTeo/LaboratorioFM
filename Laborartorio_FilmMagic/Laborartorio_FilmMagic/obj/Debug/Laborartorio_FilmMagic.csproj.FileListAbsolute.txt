@@ -31,3 +31,5 @@ C:\Users\prueb\Desktop\Laborartorio_FilmMagic\Laborartorio_FilmMagic\obj\Debug\L
 C:\Users\prueb\Desktop\Laborartorio_FilmMagic\Laborartorio_FilmMagic\obj\Debug\Laborartorio_FilmMagic.Mantenimiento.Frm_MantCliente.resources
 C:\Users\prueb\Desktop\Laborartorio_FilmMagic\Laborartorio_FilmMagic\obj\Debug\Laborartorio_FilmMagic.Mnt_Concepto.resources
 C:\Users\prueb\Desktop\Laborartorio_FilmMagic\Laborartorio_FilmMagic\obj\Debug\Laborartorio_FilmMagic.Mantenimiento.Frm_MantMembresia.resources
+C:\Users\prueb\Desktop\Laborartorio_FilmMagic\Laborartorio_FilmMagic\obj\Debug\Laborartorio_FilmMagic.Procesos.Frm_Conceptos.resources
+C:\Users\prueb\Desktop\Laborartorio_FilmMagic\Laborartorio_FilmMagic\obj\Debug\Laborartorio_FilmMagic.Procesos.Frm_renta.resources
